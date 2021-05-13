@@ -76,7 +76,7 @@ function gradeQuiz(candidateAnswers) {
   console.log(`Your Answer: ${candidateAnswers[4]}`);
   console.log(`Correct Answer: ${correctAnswers[4]}\n`);
 
-  console.log(`\n>>> Overall Grade: ${grade}% (${numOfCorrectAnswers} of ${numOfQuizQuestions} responses correct) <<<`);
+  console.log(`>>> Overall Grade: ${grade}% (${numOfCorrectAnswers} of ${numOfQuizQuestions} responses correct) <<<`);
   console.log(`>>> Status: ${status} <<<`);
 
 
