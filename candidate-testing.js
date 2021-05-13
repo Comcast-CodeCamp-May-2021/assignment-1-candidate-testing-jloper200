@@ -49,6 +49,7 @@ function gradeQuiz(candidateAnswers) {
 
   grade = (numOfCorrectAnswers/numOfQuizQuestions) * 100;
   // console.log(grade);
+
   if (grade < 80) {
     status = "FAILED";
   } else {
@@ -94,6 +95,7 @@ function runProgram() {
   
   askQuestion();
   gradeQuiz(this.candidateAnswers);
+
 
 
 }
